@@ -17,9 +17,12 @@
 
 2. Весь код, а также зависимости и контейнеры, регулярно  проходят проверку открытыми инструментами:
     * [Dependabot](https://dependabot.com).
-    * [Detekt](https://detekt.github.io/detekt/).
-    * [Snyk](https://snyk.io/) и т. д.
-    
+    * [CodeQL](https://docs.github.com/ru/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql)
+    * [GitHub Secret Scaning](https://docs.github.com/ru/code-security/secret-scanning/about-secret-scanning)
+    * [SonarQube\*](https://docs.sonarsource.com/sonarqube/latest/)
+    * [Semgrep\*](https://semgrep.dev/)
+    * [Trivy\*](https://trivy.dev/)
+    \* - опциональные инструменты из [библиотеки GitHub Actions (workflows)](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
 3. Сам код покрыт автоматическими тестами, включая проверку механизмов безопасности (отработка неверных логинов и паролей), которые регулярно прогоняются при каждом push в репозиторий.
 
 4. Разработчики прекрасно знакомы с `OWASP Top 10`, а некоторые даже с `ASVS` и `WSTG`.
