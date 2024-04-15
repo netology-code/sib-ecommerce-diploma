@@ -22,6 +22,7 @@
     * [SonarQube\*](https://docs.sonarsource.com/sonarqube/latest/)
     * [Semgrep\*](https://semgrep.dev/)
     * [Trivy\*](https://trivy.dev/)
+    
     \* - опциональные инструменты из [библиотеки GitHub Actions (workflows)](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
 3. Сам код покрыт автоматическими тестами, включая проверку механизмов безопасности (отработка неверных логинов и паролей), которые регулярно прогоняются при каждом push в репозиторий.
 
